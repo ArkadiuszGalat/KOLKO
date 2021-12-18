@@ -27,8 +27,8 @@ def gra():
         ruch=input()
 
         if plansza_do_gry[ruch]==' ':
-            plansza_do_gry[move]=gracz
-            ruch+=1
+            plansza_do_gry[ruch]=gracz
+            ruch_licznik+=1
         else:
             print('To pole jest zajęte!\n')
             continue
@@ -73,4 +73,19 @@ def gra():
                 print('KONIEC!')
                 print(f'Wygrał gracz: {gracz}')
                 break
-              
+            if licznik==9:
+                print('KONIEC!')
+                print(f'REMIS')
+        if gracz=='X':
+            gracz='O'
+        else:
+            gracz='X'
+    restart=input('Czy chcesz dalej grać?/(t/n)')
+    if restart=='t':
+        for key in klawisze:
+            plansza_do_gry[key]=' '
+        gra()
+if __name__=='__main__':
+    gra()
+
+#gra()
