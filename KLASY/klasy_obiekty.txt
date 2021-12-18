@@ -1,0 +1,6 @@
+klasa np.koty
+wśród kotów są konkretne obiekty
+obiekty mogą mieć różne metody (miauczenie, itp)
+
+:KOT
+UML - universal modelling language
