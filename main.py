@@ -73,7 +73,7 @@ def gra():
                 print('KONIEC!')
                 print(f'Wygrał gracz: {gracz}')
                 break
-            if licznik==9:
+            if ruch_licznik==9:
                 print('KONIEC!')
                 print(f'REMIS')
         if gracz=='X':
