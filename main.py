@@ -14,5 +14,5 @@ def drukuj_plansze(pole):
     print(f" {pole['4']} | {pole['5']} | {pole['6']}")
     print('---+---+---')
     print(f" {pole['1']} | {pole['2']} | {pole['3']}")
-    
+#komentarz
 drukuj_plansze(plansza_do_gry)
