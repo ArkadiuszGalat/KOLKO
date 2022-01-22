@@ -1,4 +1,5 @@
 #%%
+# symulacja zmiany pod gita
 from _typeshed import Self
 
 
